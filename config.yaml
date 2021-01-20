@@ -1,0 +1,13 @@
+dev:
+  cross_account_role_arn: arn:aws:iam::3456789012:role/eksadmin
+  region: us-east-2
+  account_number: '23456789012'
+  kubeconfig: /home/ec2-user/.kube/eksctl/clusters/dev
+  externalid: XXXXXXXX
+  
+
+test:
+  cross_account_role_arn: arn:aws:iam::0123456789:role/otherrole
+  region: us-east-1
+  account_number: '0123456789'
+  kubeconfig: /home/ec2-user/.kube/eksctl/clusters/test
